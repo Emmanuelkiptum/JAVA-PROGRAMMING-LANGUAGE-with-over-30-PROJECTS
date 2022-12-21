@@ -1,0 +1,31 @@
+
+public class Math_Expression {
+
+	public static void main(String[] args) {
+		// Math Expression formulae in java
+		System.out.println("**************MATH EXPRESSION**************\n");
+		double x = 3.142;
+		int z = -10;
+		int y = 20;
+		
+		double a = Math.max(z, y);
+		System.out.println("The Maximum Value is: " + a);
+		
+		double b = Math.min(x, y);
+		System.out.println("The Minimum Value is: " + b);
+		
+		double c = Math.abs(z);
+		System.out.println("The Absolute Value is: " + c);
+		
+		double d = Math.ceil(x);
+		System.out.println("The Ceiling Value is: " + d);
+		
+		double e = Math.round(x);
+		System.out.println("The Round of Value is: " + e);
+		
+		double f = Math.sqrt(y);
+		System.out.println("The Square Root Value is: " + f);
+
+	}
+
+}
